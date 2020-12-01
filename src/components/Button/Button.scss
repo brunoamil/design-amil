@@ -1,0 +1,13 @@
+.button-component {
+    background-color: rgb(56, 56, 201);
+    border: 1px solid white;
+    padding: 10px;
+    max-width: 300px;
+    text-align: center;
+    color: white;
+
+    &.button-component-secondary {
+        background-color: black;
+        color: red;
+    }
+}
