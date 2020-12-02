@@ -1,13 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+
 .button-component {
-    background-color: rgb(56, 56, 201);
-    border: 1px solid white;
-    padding: 10px;
-    max-width: 300px;
+    background-color: #0066B2;
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    width: 88px;
+    height: 50px;
     text-align: center;
     color: white;
+    padding: 8px;
+    border-radius: 4px;
+    line-height: 30px;
 
-    &.button-component-secondary {
-        background-color: black;
-        color: red;
+    &.button-component-disable {
+        background-color: #0066B2;
+        color: white;
+        opacity: 0.32;
     }
 }

@@ -4,9 +4,7 @@ import { ButtonProps } from './ButtonProps.types';
 import "./Button.scss";
 
 const Button: React.FC<ButtonProps> = ({ theme }) => (
-    <div className={`button-component button-component-${theme}`}>
-        <button type="button">Login</button>
-    </div>
+        <button data-testid="button-componentId"  className={`button-component button-component-${theme}`} type="button">Login</button>
 );
 
 export default Button;
