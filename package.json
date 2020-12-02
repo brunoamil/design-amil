@@ -1,6 +1,6 @@
 {
   "name": "design-amil",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Design System to Amil",
   "main": "build/index.js",
   "module": "build/index.es.js",
